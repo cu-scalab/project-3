@@ -10,21 +10,21 @@ Values don't matter for writes.
 
 4. Sample Input File looks like below
 
-sets:256
+  sets:256
 
-set_size:4
+  set_size:4
 
-line_size:4
+  line_size:4
 
-W:160
+  W:160
 
-R:15
+  R:15
 
-R:430
+  R:430
 
-W:430 
+  W:430 
 
-Here "sets, set_size, and line_size" are ordered params. Meaning the string before ":" does not matter.
+  Here "sets, set_size, and line_size" are ordered params. Meaning the string before ":" does not matter.
 
 5. #sets should be a power of 2. #sets will be at most 2^13.
 
