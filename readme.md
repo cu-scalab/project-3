@@ -37,4 +37,4 @@ Values don't matter for writes.
 This project can be pretty easy if you use good object-oriented style.
 
 # References
-Please refer to the demo.png for more details on output format and call.
+Please refer to the cache.png for more details on output format and call.
