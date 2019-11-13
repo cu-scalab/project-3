@@ -1,6 +1,6 @@
 # Creating a Write back Cache
 
-1. You should take an input file specifying cache configuration (# sets, associativity, line size), and then a list of Reads/Writes and addresses. 
+1. You should take an input file specifying cache configuration (Number of sets, associativity, line size), and then a list of Reads/Writes and addresses. 
 Values don't matter for writes. 
 
 2. You should track all relevant info for the access, including if it is a miss or hit and requires a mem access. 
@@ -26,11 +26,13 @@ Values don't matter for writes.
 
     Here "sets, set_size, and line_size" are ordered params. Meaning the string before ":" does not matter.
 
-5. #sets should be a power of 2. #sets will be at most 2^13.
+5. Number of sets should be a power of 2. 
 
-6. Line size should also be power of 2 and at least 4 (bytes).
+6. Number of sets will be at most 2^13.
 
-7. It should use an LRU eviction policy.
+7. Line size should also be power of 2 and at least 4 (bytes).
+
+8. It should use an LRU eviction policy.
 
 
 # Note
