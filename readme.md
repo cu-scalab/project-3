@@ -4,7 +4,6 @@
 Values don't matter for writes. 
 
 2. You should track all relevant info for the access, including if it is a miss or hit and requires a mem access. 
-(The trick is that you can get multiple memory refs if you are evicted while line is dirty)
 
 3. Also create a summary stats (hits/misses/accesses/ratios) and print it. 
 
