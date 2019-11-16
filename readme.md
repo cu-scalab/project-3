@@ -35,7 +35,8 @@ Values don't matter for writes.
 
 
 # Note
-This project can be pretty easy if you use good object-oriented style.
+1. This project can be pretty easy if you use good object-oriented style.
+2. You can work on group of 2.
 
 # References
 Please refer to the cache.png for more details on output format and call.
