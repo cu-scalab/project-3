@@ -38,5 +38,7 @@ Values don't matter for writes.
 1. This project can be pretty easy if you use good object-oriented style.
 2. You can work on group of 2.
 
+# Deadline - November 30, 2019
+
 # References
 Please refer to the cache.png for more details on output format and call.
