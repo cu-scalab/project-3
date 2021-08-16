@@ -19,13 +19,13 @@ Values don't matter for writes.
 
     Here "sets, set_size, and line_size" are ordered params. Meaning the string before ":" does not matter.
 
-5. Number of sets should be a power of 2. 
+5. Number of sets should be a power of 2 - otherwise catch this as an error. 
 
-6. Number of sets will be at most 2^13.
+6. Number of sets will be at most 2^13 - otherwise catch this as an error.
 
-7. Line size should also be power of 2 and at least 4 (bytes).
+7. Line size should also be power of 2 and at least 4 (bytes) - otherwise catch this as an error.
 
-8. It should use an LRU eviction policy.
+8. It should use an LRU (Least Recently Used) eviction policy.
 
 
 # Note
