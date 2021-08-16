@@ -15,7 +15,7 @@ Values don't matter for writes.
     W:160\
     R:15\
     R:430\
-    W:430\
+    W:430
 
     Here "sets, set_size, and line_size" are ordered params. Meaning the string before ":" does not matter.
 
